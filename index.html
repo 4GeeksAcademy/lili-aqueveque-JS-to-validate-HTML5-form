@@ -35,12 +35,13 @@
                             <!--First line CARD, CVC, Amount-->
                             <div class="col-md-6">
                                 <label for="inputCard" class="form-label">Card #</label>
-                                <input type="text" class="form-control" name="card-number" id="inputCard"
+                                <input type="text" class="form-control" name="card-number" id="inputCard" maxlength="16"
                                     placeholder="XXXXXXXXXXXXXXXX">
                             </div>
                             <div class="col-md-3">
                                 <label for="inputCvc" class="form-label">CVC #</label>
-                                <input type="text" class="form-control" name="input-cvc" id="inputCvc" placeholder="0000">
+                                <input type="text" class="form-control" name="input-cvc" id="inputCvc" maxlength="4"
+                                    placeholder="0000">
                             </div>
                             <div class="col-3">
                                 <label for="inputAmount" class="form-label">Amount</label>
@@ -115,7 +116,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--Message with subtitle?-->
+                            <!--Message with subtitle-->
                             <div class="col-6">
                                 <label for="message" class="form-label">Message</label>
                                 <textarea class="form-control" name="message" id="message" rows="3"></textarea>
